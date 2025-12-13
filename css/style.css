@@ -1251,9 +1251,9 @@ ul {
 
 .footer-inner {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    text-align: center;
     gap: 16px;
 }
 
@@ -1269,6 +1269,24 @@ ul {
 .footer-copy {
     font-size: 13px;
     color: var(--text-muted);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.footer-links a {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.footer-links a:hover {
+    color: var(--neon-yellow);
 }
 
 /* ==========================================
