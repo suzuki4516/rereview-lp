@@ -332,7 +332,7 @@ ul {
 .nav-list {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .nav-list a:not(.btn-nav) {
