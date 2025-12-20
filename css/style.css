@@ -1013,6 +1013,12 @@ ul {
     color: var(--neon-yellow);
 }
 
+.option-note-small {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
 .options-note {
     display: flex;
     align-items: flex-start;
